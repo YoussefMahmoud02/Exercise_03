@@ -1,0 +1,54 @@
+#EXE_1 .container 
+{
+    height: 300px;  
+    /* background-color: #09c;
+    width: 300px;
+    position: relative;
+    overflow: hidden; */
+}
+
+#EXE_1 .container img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    /* position: absolute; */
+}
+
+#EXE_1 .container .content
+{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+   position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2a3f55b3;
+    text-align: center;
+    opacity: 0;
+    transition-duration: 2s;
+    overflow: hidden;
+}
+
+#EXE_1 .container .content h2
+{
+    padding: 15px 0;
+    background-color: rgb(42, 63, 85);
+    color: white;
+    position: relative;
+    left: 100%;
+    /* transition-duration: 2s; */
+}
+
+#EXE_1 .container .content p
+{
+    color: white;
+    padding: 15px 10px;
+    position: relative;
+    left: 100%;  
+    /* background-color: rgba(42, 63, 85, 0.5); */
+    /* transition-duration: 2s; */
+}
+
